@@ -1,18 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
 header {
     background-color: black;
     color:white;
     font-size: 24px;
-    font-family: sans-serif;
     text-align: center;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     }
 
 .bottom-grid {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 6em;
+    grid-column-gap: 4em;
     grid-row-gap: 6em;
+    margin-left:180px;
+    margin-right:180px;
 }
 
 .item1 {
@@ -23,8 +32,9 @@ header {
 .bottom-grid > div > p {
     width:300px;
     color:rgba(32, 32, 32, 0.404);
-    font-family: sans-serif;
     text-align: center;
+    line-height: 30px;
+    
 }
 
 .bottom-grid > div > img {
@@ -36,18 +46,22 @@ header {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
+    text-align:center; 
+    margin-bottom: 50px;
+    grid-column-gap: 6em;
 
 }
 
 .top-grid > div > p {
-    width:300px;
-    font-family: sans-serif;
+    width:350px;
     text-align: center;
     grid-column-start: 2;
+    margin-top:0px;
 }
 
 .top-grid > div > img {
-    width: 550px;
-    grid-column: 3;   
+    width: 600px;
+    grid-column: 3;
+     
 
 }
