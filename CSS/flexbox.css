@@ -1,0 +1,59 @@
+/* General styling */
+
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: black;
+    color:white;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    }
+
+
+
+/* Container 1 - Top content */
+
+.container1 {
+    display: flex;
+    max-width:1280px;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.container1 > div {
+    align-items: center;   
+    flex-basis: 35%;
+    margin-bottom: 40px;
+}
+
+
+
+/* Container 2 - Bottom content */
+
+.container2 {
+    display: flex;
+    max-width:1280px;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 30px;
+}
+
+.container2 > div {
+    align-items: center;
+    color: rgba(32, 32, 32, 0.404);
+    flex-basis: 22%;
+}
